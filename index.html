@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Isuru Jayanada</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./pixelcut-export.png"/>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Mr. <span>Isuru</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#education">Education</a>
+        <a href="#services">Services</a>
+        <a href="#websites">Websites</a>
+        <a href="#testimonials">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, I'm <span>Isuru </span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <p>
+          I am an innovative ICT undergraduate at General Sir John Kotelawala Defence University (KDU), specializing in mobile application development with Flutter and Dart. I have a strong background in web development (HTML, CSS, JavaScript, React, Node.js) and software engineering, focused on creating user-friendly, scalable applications. Passionate about UI/UX design, cloud computing, and emerging technologies, I aim to apply my skills to build impactful, high-performance solutions while continuously evolving with the latest industry trends.
+        </p>
+
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/isuru-jayanada-044738265/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/IzuuCode" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://x.com/Izu_jayy" target="_blank"><i class="bx bxl-twitter"></i></a>
+        </div>
+
+        <div class="btn-group">
+          <a href="mailto:isurujayanada2002@gmail.com" target="_blank" class="btn">Hire Me</a>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="./pixelcut-export.png" alt="Isuru Jayanada" />
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <h2 class="heading">Education</h2>
+
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2016 - 2018</div>
+          <div class="timeline-content">
+            <h3>Primary Education</h3>
+            <p>
+              Govt.Science college matale<br/>
+G.C.E (Ordinary Level) Examination with ICT<br/>
+<b>Nine "A" passes</b>
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2018 - 2021 (2022)</div>
+          <div class="timeline-content">
+            <h3>Secondary Education</h3>
+            <p>
+              Govt.Science college matale<br/>
+G.C.E (Advance Level) Examination Technology Stream<br/>
+<b>“B” pass & two “C” passes</b>
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2023 - Present</div>
+          <div class="timeline-content">
+            <h3>University</h3>
+            <p>
+              Information communication & Technology (ICT)<br/>
+BT (Hons) ICT
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">Services</h2>
+
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Full Stack Development</h4>
+            <p>
+              I provide end-to-end full stack development services, building responsive, user-friendly web applications with seamless frontend and backend integration. Specializing in modern frameworks and technologies, I deliver secure, scalable solutions, including e-commerce platforms and custom functionality. I collaborate closely with clients to create impactful digital experiences that align with their goals and drive success.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>UI / UX Design</h4>
+            <p>
+              I offer UI/UX design services that focus on creating intuitive and visually appealing digital experiences. By understanding client goals and target audiences, I deliver user-friendly interfaces and optimized user flows to enhance engagement and drive business success.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="websites" id="websites">
+      <div class="websites-box">
+        <h2 class="heading"><span>MY</span> Projects</h2>
+        <div class="websites-wrapper" id="websitesList">
+          <script>
+            // Array of website details
+            const websites = [
+              { name: "Tea Sampling App", img: "./tea_sampling.png", url: "https://github.com/IzuuCode/tea_sampling_application" },
+              { name: "Skin disease App (Flutter & ML)", img: "./skin_app.png", url: "https://github.com/IzuuCode/skindiseasedetection" },
+              { name: "TAX Calculator", img: "./VCUCal.png", url: "https://calculators-peach.vercel.app/" },
+              { name: "Flappy Bird", img: "./flappy bird.png", url: "https://github.com/IzuuCode/flappybird" }
+            ];
+          
+            // Generate and insert website items dynamically
+            document.getElementById("websitesList").innerHTML = websites
+              .map(website => `
+                <div class="website-item">
+                  <a href="${website.url}" target="_blank">
+                    <img src="${website.img}" alt="${website.name}" />
+                    <h2>${website.name}</h2>
+                  </a>
+                </div>
+              `)
+              .join("");
+          </script>    
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="testimonials-box">
+        <h2 class="heading">Skills</h2>
+    
+        <div class="websites-wrapper" id="skillsList">
+          <script>
+            // Array of skills with image paths
+            const skills = [
+              { name: "Flutter", img: "./flutter.png" },
+              { name: "Firebase", img: "./firebase.png" },
+              { name: "JavaScript", img: "./js.png" },
+              { name: "React JS", img: "./react.png" },
+              { name: "Node JS", img: "./node.png" },
+              { name: "Tailwind CSS", img: "./tailwind.png" },
+              { name: "Dart", img: "./dart.png" },
+              { name: "MongoDB", img: "./mongodb.png" },
+              { name: "Tkinter", img: "./tkinter.png" },
+              { name: "Java", img: "./java.png" },
+              { name: "HTML", img: "./html.png" },
+              { name: "CSS", img: "./css.png" }
+            ];
+          
+            // Generate and insert skill items using map()
+            document.getElementById("skillsList").innerHTML = skills
+              .map(skill => `
+                <div class="website-item">
+                  <img src="${skill.img}" alt="${skill.name}" />
+                  <h2>${skill.name}</h2>
+                </div>
+              `)
+              .join("");
+          </script>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form id="contactForm">
+        <div class="input-group">
+          <div class="input-box">
+            <input id="name" type="text" placeholder="Full Name" />
+            <input id="email" type="email" placeholder="Enter Your Email" />
+          </div>
+          <div class="input-box">
+            <input id="phone" type="number" placeholder="Phone Number" />
+            <input id="title" type="text" placeholder="Subject" />
+          </div>
+        </div>
+
+        <div class="input-group-2">
+          <textarea
+            name=""
+            id="msg"
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="social">
+        <a href="https://api.whatsapp.com/send/?phone=94715795099&text&type=phone_number&app_absent=0" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+        <a href="https://www.facebook.com/share/1EM1zSWdzE/?mibextid=wwXIfr" target="_blank"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/fishyy.boi__/" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="https://www.tiktok.com/@fishyy58?_t=ZS-8utp2HU2mVW&_r=1" target="_blank"><i class="bx bxl-tiktok"></i></a>
+      </div>
+
+      <ul class="list">
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+        <li>
+          <a href="#">Services</a>
+        </li>
+        <li>
+          <a href="#">About Me</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+        <li>
+          <a href="#">Skills</a>
+        </li>
+      </ul>
+      <p class="copyright">© <script>document.write(new Date().getFullYear());</script> Isuru Jayanada | All Right Reserved</p>
+    </footer>
+  </body>
+</html>
