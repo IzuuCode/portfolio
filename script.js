@@ -3,20 +3,20 @@ let navbar = document.querySelector(".navbar");
 let sections = document.querySelectorAll("section");
 let navLinks = document.querySelectorAll("header nav a");
 
-// Toggle menu when clicking menu icon
+
 menuIcon.onclick = () => {
   menuIcon.classList.toggle("bx-x");
   navbar.classList.toggle("active");
 };
 
-// Function to remove active class from all nav links
+
 function removeActiveClass() {
   navLinks.forEach((link) => link.classList.remove("active"));
 }
 
-// Function to add active class to the correct nav link
+
 function highlightActiveSection() {
-  let scrollPosition = window.scrollY + window.innerHeight / 3; // Adjust for better accuracy
+  let scrollPosition = window.scrollY + window.innerHeight / 3; 
   let currentSection = null;
 
   sections.forEach((section) => {
@@ -38,20 +38,19 @@ function highlightActiveSection() {
       `header nav a[href="#${currentSection}"]`
     );
     if (activeLink) {
-      console.log(activeLink);
       activeLink.classList.add("active");
     }
   }
 }
 
-// Event listener for scroll
+
 window.addEventListener("scroll", highlightActiveSection);
 
-// Initial call to highlight the active section when the page loads
+
 document.addEventListener("DOMContentLoaded", highlightActiveSection);
 
-// Initialize emailjs with the new public key
-emailjs.init("LyFVf1s9j8lfvnka2"); // Replace with your Public Key
+
+emailjs.init("LyFVf1s9j8lfvnka2"); 
 
 document.getElementById("contactForm").addEventListener("submit", (event) => {
   event.preventDefault();
@@ -59,21 +58,29 @@ document.getElementById("contactForm").addEventListener("submit", (event) => {
   const name = document.getElementById("name").value;
   const email = document.getElementById("email").value;
   const title = document.getElementById("title").value;
-  const message = document.getElementById("msg").value;
+  const message = document.getElementById("msg").value; 
   const phone = document.getElementById("phone").value;
 
-  // Send the email
+  
+  console.log("Name:", name);
+  console.log("Email:", email);
+  console.log("Title:", title);
+  console.log("Message:", message); 
+  console.log("Phone:", phone);
+
+  
   emailjs
     .send("service_ayuk0ex", "template_o5pluge", {
       name,
       email,
       title,
-      msg,
+      message, 
       phone,
     })
     .then((response) => {
       console.log("Success!", response);
       alert("Your message has been sent successfully!");
+      document.getElementById("contactForm").reset(); 
     })
     .catch((error) => {
       console.log("Failed...", error);
