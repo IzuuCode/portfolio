@@ -67,8 +67,8 @@ document.getElementById("contactForm").addEventListener("submit", (event) => {
     .send("service_ayuk0ex", "template_o5pluge", {
       name,
       email,
-      msg: message,
       title,
+      msg,
       phone,
     })
     .then((response) => {
