@@ -1,20 +1,30 @@
-# Isuru Jayanada's Personal Website
+🌐 Isuru Jayanada's Personal Website
+--------------------------------------------------------------------------------------
+Welcome to the repository for my personal website — a digital space where I showcase my projects, technical skills, and share insights from my learning journey.
+Feel free to explore and get to know more about me!
 
-Welcome to my personal website repository! This website showcases my work, projects, and technical skills. Feel free to explore and get to know more about me.
+🔗 Live Site: isurujayanada.me
 
-## Features
+✨ Features
+Homepage – A brief introduction to who I am and what I do
 
-- **Homepage**: An introduction to who I am and what I do.
-- **Projects**: A showcase of my personal and academic projects.
-- **Contact**: Ways to get in touch with me for potential collaborations or questions.
-- **Blog**: Insightful posts about my learning journey, tech, and development.
+Projects – A curated collection of my academic and personal projects
 
-## Technologies Used
+Contact – Easy ways to reach out for collaborations, feedback, or questions
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Hosting**: GitHub Pages (or any other hosting platform you're using)
-- **Other**: Markdown for documentation, Font Awesome for icons
+Blog – Articles and insights about tech, programming, and my journey in development
 
-Go Check this out 
+🛠️ Technologies Used
+Frontend: HTML, CSS, JavaScript
 
-https://isurujayanada.me/
+Icons: Font Awesome
+
+Documentation: Markdown
+
+Hosting: GitHub Pages (or another platform as applicable)
+
+🚀 Check it Out
+👉 Visit the Website »
+
+📬 Contact
+If you're interested in working together or have any questions, feel free to get in touch!
