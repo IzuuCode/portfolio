@@ -1,4 +1,4 @@
-<b>Isuru Jayanada - Full-Stack Developer Portfolio </b>
+<b><h1>Isuru Jayanada - Full-Stack Developer Portfolio</h1> </b>
 
 This repository contains the source code for my personal portfolio website, built to showcase my expertise in full-stack development, my projects, and my professional journey. The site is designed with a clean, modern aesthetic and optimized for a seamless user experience.
 
