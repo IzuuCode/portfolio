@@ -36,7 +36,7 @@ export const LoadingAnimation: React.FC<LoadingAnimationProps> = ({ onComplete }
         <div className="animate-pulse">
           <h1 className="text-4xl font-bold mb-4">
             <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-cyan-400 bg-clip-text text-transparent">
-              Hello World...
+              Hello World
             </span>
           </h1>
           <div className="flex justify-center space-x-2">
