@@ -27,8 +27,8 @@ I thrive on bringing ideas to life through code — combining creativity with mo
 📫 Connect with me:
 
 Portfolio: isurujayanada.me
-
 LinkedIn: linkedin.com/in/isurujayanada
+Email: isurujayanada2002@gmail.com
 
 GitHub: github.com/IsuruJayanada
 Comprehensive Skills Section: Clearly outlines my technical competencies and areas of expertise.
