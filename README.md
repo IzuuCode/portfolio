@@ -35,4 +35,4 @@ Comprehensive Skills Section: Clearly outlines my technical competencies and are
 
 Functional Contact Form: Allows visitors to easily get in touch with me.
 
-SEO Optimized: Built with SEO best practices to ensure high visibility on search engine
+SEO Optimized: Built with SEO best practices to ensure high visibility on search engine.
