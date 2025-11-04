@@ -13,7 +13,7 @@ export const About: React.FC = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center" data-animate>
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
-I'm a UI/UX Engineer and Tech enthusiast currently pursuing my degree at General Sir John Kotelawala Defence University. With hands-on experience in web and mobile app development, I've built impactful solutions like SkinOptix, Tea Sampling, and the Weather Application. My journey started with a deep curiosity about technology, which evolved into a strong drive to create meaningful, user-centered digital experiences across platforms.
+I'm an UI/UX Engineer and Tech enthusiast currently pursuing my degree at General Sir John Kotelawala Defence University. With hands-on experience in web and mobile app development, I've built impactful solutions like SkinOptix, Tea Sampling, and the Weather Application. My journey started with a deep curiosity about technology, which evolved into a strong drive to create meaningful, user-centered digital experiences across platforms.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 I specialize in modern web technologies and have a keen eye for design. 
