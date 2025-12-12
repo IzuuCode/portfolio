@@ -34,7 +34,7 @@ const educations = [
     achievements: [
       'Developed multiple cross-platform apps',
       'Contributed to research ',
-      'Science Olympiad State Champion'
+      'Developed a Skin disease detector'
     ],
     color: 'from-cyan-400 to-blue-400'
   },
