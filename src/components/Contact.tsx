@@ -7,7 +7,7 @@ import { toast } from 'sonner';
 export default function App() {
   return (
     <div className="bg-gray-900 min-h-screen">
-       {/* Toaster component from sonner needs to be rendered at the root of your app */}
+      {/* Toaster component from sonner needs to be rendered at the root of your app */}
       {/* <Toaster position="top-center" richColors /> */}
       <Contact />
     </div>
@@ -23,7 +23,7 @@ export const Contact: React.FC = () => {
     title: '',
     message: ''
   });
-  
+
   // FIX: State to track if the EmailJS script has loaded successfully.
   const [isScriptLoaded, setIsScriptLoaded] = useState(false);
 
@@ -36,10 +36,10 @@ export const Contact: React.FC = () => {
     script.onload = () => {
       setIsScriptLoaded(true);
     };
-    
+
     script.onerror = () => {
-        console.error('EmailJS script failed to load.');
-        toast.error('Could not load email service. Please refresh the page.');
+      console.error('EmailJS script failed to load.');
+      toast.error('Could not load email service. Please refresh the page.');
     }
 
     document.body.appendChild(script);
@@ -99,15 +99,15 @@ export const Contact: React.FC = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-white" data-animate>
             Get In <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Touch</span>
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12" data-animate>
             <div>
               <h3 className="text-2xl font-bold text-white mb-6">Let's work together</h3>
               <p className="text-gray-300 mb-8 leading-relaxed">
-                I'm always interested in new opportunities and exciting projects. 
+                I'm always interested in new opportunities and exciting projects.
                 Whether you have a question or just want to say hi, I'll try my best to get back to you!
               </p>
-              
+
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center">
@@ -118,7 +118,7 @@ export const Contact: React.FC = () => {
                     <p className="text-gray-400">isurujayanada2002@gmail.com</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center">
                     <Phone className="text-green-400" size={20} />
@@ -128,7 +128,7 @@ export const Contact: React.FC = () => {
                     <p className="text-gray-400">(+94) 71 579 5099</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-sky-500/20 rounded-lg flex items-center justify-center">
                     <MapPin className="text-sky-400" size={20} />
@@ -140,7 +140,7 @@ export const Contact: React.FC = () => {
                 </div>
               </div>
             </div>
-            
+
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <input
@@ -153,7 +153,7 @@ export const Contact: React.FC = () => {
                   className="w-full px-4 py-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg focus:outline-none focus:border-blue-400 text-white placeholder-gray-400 transition-colors duration-300"
                 />
               </div>
-              
+
               <div>
                 <input
                   type="email"
@@ -176,7 +176,7 @@ export const Contact: React.FC = () => {
                   className="w-full px-4 py-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg focus:outline-none focus:border-blue-400 text-white placeholder-gray-400 transition-colors duration-300"
                 />
               </div>
-              
+
               <div>
                 <input
                   type="text"
@@ -188,7 +188,7 @@ export const Contact: React.FC = () => {
                   className="w-full px-4 py-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg focus:outline-none focus:border-blue-400 text-white placeholder-gray-400 transition-colors duration-300"
                 />
               </div>
-              
+
               <div>
                 <textarea
                   name="message"
@@ -200,7 +200,7 @@ export const Contact: React.FC = () => {
                   className="w-full px-4 py-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg focus:outline-none focus:border-blue-400 text-white placeholder-gray-400 transition-colors duration-300 resize-none"
                 ></textarea>
               </div>
-              
+
               <button
                 type="submit"
                 disabled={!isScriptLoaded}
@@ -213,10 +213,10 @@ export const Contact: React.FC = () => {
           </div>
         </div>
       </div>
-      
+
       <div className="text-center mt-16 pt-8 border-t border-white/10">
         <p className="text-gray-400">
-          © 2025 Isuru Jayanada. All rights reserved.
+          © 2025<a href="https://www.linkedin.com/in/isuru-jayanada-044738265/">- Isuru Jayanada</a>. All rights reserved.
         </p>
       </div>
     </section>
