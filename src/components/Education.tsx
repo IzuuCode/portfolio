@@ -42,7 +42,7 @@ const educations = [
     degree: 'Software Engineering Intern',
     institution: 'DFAR-IT Division',
     location: 'Onsite',
-    period: '2025 August - Present',
+    period: '2025 June - 2025 December',
     achievements: [
       'Collaborated with cross‑functional teams to deliver features',
       'Created responsive UI components and design systems',
