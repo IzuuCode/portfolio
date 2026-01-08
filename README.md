@@ -1,38 +1,87 @@
-<b><h1>🌐 Isuru Jayanada — Full-Stack Developer Portfolio </h1> </b>
+# 🌐 Isuru Jayanada — Full-Stack Developer
 
-This repository contains the source code for my personal portfolio website, built to showcase my expertise in full-stack development, my projects, and my professional journey. The site is designed with a clean, modern aesthetic and optimized for a seamless user experience.
+🚀 **Building scalable, high-impact web experiences from frontend polish to backend muscle.**
 
-View Live Site [https://isurujayanada.me/]
+Welcome to my personal portfolio repository. This project showcases my technical skill set, real-world projects, and my journey as a Full-Stack Developer — all wrapped in a clean, modern, performance-first design.
 
-🌟 Project Overview
+🔗 **Live Site:** [https://isurujayanada.me](https://isurujayanada.me)
 
-This portfolio is a comprehensive presentation of my skills and passion for creating elegant and functional web solutions. It was engineered from the ground up using a modern tech stack to ensure high performance, responsiveness, and scalability. The goal was to create a professional platform to detail my technical background, display my work, and share my journey in software development.
+---
 
+## 🌟 Project Overview
 
+This portfolio is engineered to function as my digital HQ — a single source of truth for my work, skills, and professional story. Built using a modern tech stack, it focuses on **performance, responsiveness, accessibility, and SEO**.
 
-✨ Features
+The objective?  
+👉 Make a strong first impression.  
+👉 Communicate value fast.  
+👉 Convert visitors into collaborators or employers.
 
-✅ Fully Responsive Design — Seamlessly adapts to all screen sizes and devices.
-🎨 Modern UI/UX — Built with smooth animations, clean layouts, and intuitive navigation.
-🧩 Project Showcase — Displays key projects with descriptions, tech stacks, and external links.
-💼 Skills Overview — Clearly highlights technical expertise across the stack.
-📩 Functional Contact Form — Enables visitors to reach out directly through the site.
-⚡ SEO Optimized — Structured for visibility and performance on search engines.
+No fluff. Just execution.
 
-👤 About Me
+---
 
-I’m Isuru Jayanada, a passionate Full-Stack Developer who loves building functional, aesthetic, and user-centric web applications.
-I thrive on bringing ideas to life through code — combining creativity with modern development practices.
+## ✨ Key Features
 
-📫 Connect with me:
+✅ **Fully Responsive Design**  
+Optimized for desktops, tablets, and mobile devices.
 
-Portfolio: isurujayanada.me
-LinkedIn: linkedin.com/in/isurujayanada
-Email: isurujayanada2002@gmail.com
+🎨 **Modern UI/UX**  
+Clean layouts, smooth animations, and intuitive navigation for a premium feel.
 
-GitHub: github.com/IsuruJayanada
-Comprehensive Skills Section: Clearly outlines my technical competencies and areas of expertise.
+🧩 **Project Showcase**  
+Highlighted projects with descriptions, tech stacks, and external links.
 
-Functional Contact Form: Allows visitors to easily get in touch with me.
+💼 **Skills Overview**  
+Clear breakdown of technical expertise across the full stack.
 
-SEO Optimized: Built with SEO best practices to ensure high visibility on search engine.
+📩 **Functional Contact Form**  
+Visitors can reach out directly through the website.
+
+⚡ **SEO Optimized**  
+Built with search engine visibility and performance best practices.
+
+---
+
+## 👤 About Me
+
+I’m **Isuru Jayanada**, a passionate **Full-Stack Developer** who enjoys building functional, aesthetic, and user-centric web applications.
+
+I like shipping things that **work well, look good, and scale**.  
+I’m constantly learning, iterating, and refining my craft — turning ideas into production-ready solutions.
+
+If it solves a real problem and pushes me technically, I’m in.
+
+---
+
+## 🛠️ Skills Snapshot
+
+- **Frontend:** HTML, CSS, JavaScript, Modern UI/UX Practices  
+- **Backend:** Server-side development & API integration  
+- **Databases:** Structured data handling & persistence  
+- **Tools & Workflow:** Git, GitHub, Deployment & Optimization  
+- **Focus Areas:** Performance, Security Awareness, Clean Architecture
+
+---
+
+## 📫 Connect With Me
+
+🌐 **Portfolio:** [https://isurujayanada.me](https://isurujayanada.me)  
+💼 **LinkedIn:** [linkedin.com/in/isurujayanada](https://linkedin.com/in/isurujayanada)  
+📧 **Email:** isurujayanada2002@gmail.com  
+🐙 **GitHub:** [github.com/IsuruJayanada](https://github.com/IsuruJayanada)
+
+---
+
+## 📌 Final Note
+
+This portfolio is a **living project** — continuously evolving as I grow, learn, and ship more products.
+
+If you’re:
+- Hiring 🚀  
+- Collaborating 🤝  
+- Or just curious 👀  
+
+Let’s talk.
+
+**Built with intent. Deployed with confidence.**
