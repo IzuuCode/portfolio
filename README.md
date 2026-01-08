@@ -67,9 +67,9 @@ If it solves a real problem and pushes me technically, I’m in.
 ## 📫 Connect With Me
 
 🌐 **Portfolio:** [https://isurujayanada.me](https://isurujayanada.me)  
-💼 **LinkedIn:** [linkedin.com/in/isurujayanada](https://linkedin.com/in/isurujayanada)  
+💼 **LinkedIn:** [Isuru Jayanada](https://www.linkedin.com/in/isuru-jayanada-044738265/)  
 📧 **Email:** isurujayanada2002@gmail.com  
-🐙 **GitHub:** [github.com/IsuruJayanada](https://github.com/IsuruJayanada)
+🐙 **GitHub:** [Izuu Codee](https://github.com/IzuuCode)
 
 ---
 
