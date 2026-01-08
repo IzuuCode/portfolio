@@ -75,7 +75,7 @@ If it solves a real problem and pushes me technically, I’m in.
 
 ## 📌 Final Note
 
-This portfolio is a **living project** — continuously evolving as I grow, learn, and ship more products.
+This portfolio is a **living project**  continuously evolving as I grow, learn, and ship more products.
 
 If you’re:
 - Hiring 🚀  
