@@ -216,7 +216,7 @@ export const Contact: React.FC = () => {
 
       <div className="text-center mt-16 pt-8 border-t border-white/10">
         <p className="text-gray-400">
-          © 2025<a href="https://www.linkedin.com/in/isuru-jayanada-044738265/">- Isuru Jayanada</a>. All rights reserved.
+          © 2026<a href="https://www.linkedin.com/in/isuru-jayanada-044738265/">- Isuru Jayanada</a>. All rights reserved.
         </p>
       </div>
     </section>
