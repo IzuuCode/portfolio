@@ -4,7 +4,7 @@
 
 Welcome to my personal portfolio repository. This project showcases my technical skill set, real-world projects, and my journey as a Full-Stack Developer — all wrapped in a clean, modern, performance-first design.
 
-🔗 **Live Site:** [https://isurujayanada.me](https://isurujayanada.me)
+
 
 ---
 
