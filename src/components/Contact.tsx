@@ -1,18 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Send, MapPin, Phone, Mail } from 'lucide-react';
 import { toast } from 'sonner';
-
-// This is a placeholder for the actual App component that would render this form.
-// In a real application, you would import and use the Contact component within your main App.
-export default function App() {
-  return (
-    <div className="bg-gray-900 min-h-screen">
-      {/* Toaster component from sonner needs to be rendered at the root of your app */}
-      {/* <Toaster position="top-center" richColors /> */}
-      <Contact />
-    </div>
-  );
-}
+import { siteConfig } from '@/config/site';
 
 
 export const Contact: React.FC = () => {
@@ -65,13 +54,17 @@ export const Contact: React.FC = () => {
       return;
     }
 
-    // The fourth argument is your Public Key from your EmailJS account settings.
+    if (!siteConfig.emailJs.serviceId || !siteConfig.emailJs.templateId || !siteConfig.emailJs.publicKey) {
+      toast.error('Email service is not configured. Add VITE_EMAILJS values in your .env file.');
+      return;
+    }
+
     emailjsService
       .send(
-        'service_ayuk0ex', // replace with your Service ID
-        'template_o5pluge', // replace with your Template ID
+        siteConfig.emailJs.serviceId,
+        siteConfig.emailJs.templateId,
         formData,
-        'mTXm4wj0yvIsCH0Bj' // replace with your Public Key
+        siteConfig.emailJs.publicKey
       )
       .then(
         (response: any) => {
@@ -115,7 +108,7 @@ export const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-white font-medium">Email</p>
-                    <p className="text-gray-400">isurujayanada2002@gmail.com</p>
+                    <p className="text-gray-400 break-all">{siteConfig.contact.email}</p>
                   </div>
                 </div>
 
@@ -125,7 +118,7 @@ export const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-white font-medium">Phone</p>
-                    <p className="text-gray-400">(+94) 71 579 5099</p>
+                    <p className="text-gray-400">{siteConfig.contact.phone}</p>
                   </div>
                 </div>
 
@@ -135,7 +128,7 @@ export const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-white font-medium">Location</p>
-                    <p className="text-gray-400">Matale,Sri Lanka</p>
+                    <p className="text-gray-400">{siteConfig.contact.location}</p>
                   </div>
                 </div>
               </div>

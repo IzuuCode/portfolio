@@ -77,13 +77,13 @@ export const Education: React.FC = () => {
                 return (
                 <div
                   key={edu.degree}
-                  className={`group relative transition-all duration-700 ease-out hover:scale-105 ${isLeft ? 'md:pr-1/2 md:text-right' : 'md:pl-1/2 md:ml-auto'}`}
+                  className={`group relative transition-all duration-700 ease-out hover:-translate-y-1 ${isLeft ? 'md:w-1/2 md:pr-12' : 'md:w-1/2 md:ml-auto md:pl-12'}`}
                   style={{ animationDelay: `${index * 0.2}s` }}
                 >
                   {/* Timeline dot */}
                   <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-gradient-to-r from-blue-400 to-cyan-400 border-4 border-black z-10 hidden md:block group-hover:scale-150 transition-all duration-300"></div>
 
-                  <div className={`glass-effect rounded-2xl p-8 max-w-lg ${isLeft ? 'md:mr-12' : 'md:ml-12'} transform transition-all duration-500 hover:shadow-2xl hover:shadow-cyan-500/20 smooth-enter`}>
+                  <div className={`glass-effect rounded-2xl p-8 max-w-lg ${isLeft ? '' : 'md:ml-auto'} transform transition-all duration-500 hover:shadow-2xl hover:shadow-cyan-500/20 smooth-enter`}>
                     {/* Header */}
                     <div className="mb-6">
                       <div className="flex items-center gap-3 mb-3">
